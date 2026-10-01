@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 🎯 INFORMAÇÕES PRO GOOGLE — ISSO FAZ APARECER NA BUSCA! -->
+    <title>Expresso de Jogos X — Jogos Online Grátis | Ultra Kill, Celeste e mais</title>
+    <meta name="description" content="🎮 Expresso de Jogos X — Acesse Ultra Kill, EagleCraft, Celeste, Hyper Light Drifter e muito mais! Jogos direto no navegador, sem instalar!">
+    <meta name="keywords" content="Expresso de Jogos X, jogos online, Ultra Kill, EagleCraft, Celeste, Hyper Light Drifter, jogos grátis, navegador">
+    <meta name="author" content="Expresso de Jogos X">
+    <link rel="canonical" href="https://jeanlgoncalves11-creator.github.io/Espresso-de-jogos-x/">
+    
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
+        body {background:#000; color:#fff; min-height:100vh; padding:20px; max-width:1000px; margin:0 auto;}
+        
+        /* 🌟 Animação de boas-vindas */
+        .welcome {position:fixed; inset:0; background:#000; display:flex; align-items:center; justify-content:center; z-index:999; animation: fadeOut 2.5s ease-out 2.5s forwards;}
+        .welcome h1 {font-size:2.5rem; color:#00d0ff; text-align:center; animation: bounceIn 1s ease-out; text-shadow:0 0 20px rgba(0,208,255,.6);}
+        @keyframes bounceIn {0%{transform:scale(.3);opacity:0;}50%{transform:scale(1.1);}100%{transform:scale(1);opacity:1;}}
+        @keyframes fadeOut {to{opacity:0; visibility:hidden;}}
+
+        h1 {color:#00d0ff; margin-bottom:20px; font-size:1.8rem;}
+        h2 {color:#00d0ff; margin:30px 0 15px; border-bottom:2px solid #0066aa; padding-bottom:8px;}
+        .search {width:100%; padding:14px; font-size:1.1rem; background:#000; border:2px solid #0066aa; color:#fff; border-radius:4px; outline:none; margin-bottom:30px;}
+        .search:focus {border-color:#00d0ff; box-shadow:0 0 12px rgba(0,208,255,.5);}
+        .lista {display:grid; grid-template-columns: repeat(3, 1fr); gap:15px;}
+        .card {border:2px solid #0066aa; padding:15px; border-radius:4px; transition:.3s;}
+        .card:hover {border-color:#00d0ff; box-shadow:0 0 15px rgba(0,162,255,.35); transform:translateY(-2px);}
+        .card h3 {color:#fff; margin-bottom:8px; font-size:1rem;}
+        .card a {color:#00a2ff; text-decoration:none; font-weight:600; font-size:.9rem;}
+        .card a:hover {color:#00d0ff; text-decoration:underline;}
+        .sem-resultado {color:#0066aa; text-align:center; padding:30px; display:none;}
+        footer {text-align:center; color:#0066aa; margin-top:50px; padding:20px; border-top:1px solid #003355;}
+
+        @media (max-width:900px) {.lista {grid-template-columns: repeat(2,1fr);}}
+        @media (max-width:550px) {.lista {grid-template-columns: 1fr;}}
+    </style>
+</head>
+<body>
+
+    <!-- 🌟 Animação de entrada -->
+    <div class="welcome"><h1>💐 Bem-vindo a<br>Expresso de Jogos X 🎉🥳</h1></div>
+
+    <h1>🎮 Expresso de Jogos X</h1>
+    
+    <!-- 🔍 Barra de Pesquisa no SITE -->
+    <input type="text" id="pesquisa" class="search" placeholder="🔍 Pesquise qualquer jogo...">
+    <div id="semResultado" class="sem-resultado">😕 Nenhum jogo encontrado.</div>
+
+    <!-- ⚡ QuakPrep -->
+    <h2>⚡ quakprep.org</h2>
+    <div class="lista">
+        <div class="card" data-nome="Ultra Kill ULTRAKILL Ação">
+            <h3>⚔️ Ultra Kill</h3>
+            <a href="https://quakprep.org" target="_blank">Acessar → quakprep.org</a>
+        </div>
+        <div class="card" data-nome="EagleCraft Minecraft Web">
+            <h3>🦅 EagleCraft</h3>
+            <a href="https://quakprep.org" target="_blank">Acessar → quakprep.org</a>
+        </div>
+    </div>
+
+    <!-- 📲 APKVision -->
+    <h2>📲 apkvision.org</h2>
+    <div class="lista">
+        <div class="card" data-nome="Celeste Plataforma Desafio">
+            <h3>🏔️ Celeste</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+        <div class="card" data-nome="Hyper Light Drifter Ação RPG">
+            <h3>⚔️ Hyper Light Drifter</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+        <div class="card" data-nome="Stardew Valley Fazenda">
+            <h3>🌾 Stardew Valley</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+        <div class="card" data-nome="Terraria Aventura Construção">
+            <h3>⛏️ Terraria</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+        <div class="card" data-nome="Dead Cells Ação Roguelike">
+            <h3>⚔️ Dead Cells</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+        <div class="card" data-nome="Hollow Knight Metroidvania">
+            <h3>🦋 Hollow Knight</h3>
+            <a href="https://apkvision.org" target="_blank">Baixar → apkvision.org</a>
+        </div>
+    </div>
+
+    <!-- 🌐 Outros -->
+    <h2>🌐 Outros — Navegador</h2>
+    <div class="lista">
+        <div class="card" data-nome="Roblox Jogos">
+            <h3>🎮 Roblox</h3>
+            <a href="https://www.roblox.com" target="_blank">Acessar → roblox.com</a>
+        </div>
+        <div class="card" data-nome="Minecraft Classic Construir">
+            <h3>🧱 Minecraft Classic</h3>
+            <a href="https://classic.minecraft.net" target="_blank">Acessar → classic.minecraft.net</a>
+        </div>
+        <div class="card" data-nome="1v1.LOL Tiro Construção">
+            <h3>🏗️ 1v1.LOL</h3>
+            <a href="https://1v1.lol" target="_blank">Acessar → 1v1.lol</a>
+        </div>
+        <div class="card" data-nome="Slither.io Cobra">
+            <h3>🐍 Slither.io</h3>
+            <a href="https://slither.io" target="_blank">Acessar → slither.io</a>
+        </div>
+        <div class="card" data-nome="Chess Xadrez">
+            <h3>♟️ Chess.com</h3>
+            <a href="https://www.chess.com" target="_blank">Acessar → chess.com</a>
+        </div>
+        <div class="card" data-nome="2048 Números Quebra Cabeça">
+            <h3>🔢 2048</h3>
+            <a href="https://2048.game" target="_blank">Acessar → 2048.game</a>
+        </div>
+    </div>
+
+    <footer>💻 Expresso de Jogos X — Pesquise e jogue! | Criado por Dola 🫂</footer>
+
+    <!-- 🔍 PESQUISA NO SITE FUNCIONANDO -->
+    <script>
+        const input = document.getElementById('pesquisa');
+        const semResultado = document.getElementById('semResultado');
+        const todosCards = document.querySelectorAll('.card');
+
+        input.addEventListener('input', () => {
+            const termo = input.value.toLowerCase().trim();
+            let achou = false;
+
+            todosCards.forEach(card => {
+                const nome = card.getAttribute('data-nome').toLowerCase();
+                if (!termo || nome.includes(termo)) {
+                    card.style.display = 'block';
+                    achou = true;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            semResultado.style.display = achou ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>
